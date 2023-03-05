@@ -1,4 +1,4 @@
-import 'package:proverbs/match_card.dart';
+import 'match_card.dart';
 
 List<MatchCard> matchCards = [
   const MatchCard(

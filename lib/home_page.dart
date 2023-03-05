@@ -1,15 +1,11 @@
-import 'dart:html';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:proverbs/memory_card.dart';
-import 'package:proverbs/match_card.dart';
 import 'package:confetti/confetti.dart';
 
 import 'constants.dart';
 import 'globals.dart';
 import 'lists.dart';
+import 'memory_card.dart';
 
 class HomePage extends ConsumerStatefulWidget {
   const HomePage({Key? key}) : super(key: key);
