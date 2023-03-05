@@ -2,86 +2,169 @@ import 'package:proverbs/match_card.dart';
 
 List<MatchCard> matchCards = [
   const MatchCard(
-    text: 'Head of Gold',
+    text: 'Christ heals a leper',
     key: 'a',
   ),
   const MatchCard(
-    text: 'Daniel 2:37-38',
+    text: 'Matthew 8:2-4',
     key: 'a',
   ),
   const MatchCard(
-    text: 'Chest and arms of silver',
+    text: 'Christ heals a man of palsy',
     key: 'b',
   ),
   const MatchCard(
-    text: 'Daniel 2:39A',
+    text: 'Matthew 8:5-13',
     key: 'b',
   ),
   const MatchCard(
-    text: 'Belly and thighs of brass',
+    text: 'Christ heals Peter\'s mother of fever',
     key: 'c',
   ),
   const MatchCard(
-    text: 'Daniel 2:39B',
+    text: 'Matthew 8:14-15',
     key: 'c',
   ),
   const MatchCard(
-    text: 'Legs of iron',
+    text: 'Christ heals many possessed and casts out spirits',
     key: 'd',
   ),
   const MatchCard(
-    text: 'Daniel 2:40',
+    text: 'Matthew 8:16-17',
     key: 'd',
   ),
   const MatchCard(
-    text: 'Ten toes',
+    text: 'Christ calms a tempest',
     key: 'e',
   ),
   const MatchCard(
-    text: 'Daniel 2:41-42',
+    text: 'Matthew 8:23-27',
     key: 'e',
   ),
   const MatchCard(
-    text: 'Stone cut out of the mountain without hands',
+    text: 'Christ cures two men possessed with devils',
     key: 'f',
   ),
   const MatchCard(
-    text: 'Daniel 2:44-45\nD&C 65:2',
+    text: 'Matthew 8:28-32',
     key: 'f',
   ),
   const MatchCard(
-    text: 'FREE SPACE',
+    text: 'Christ heals a man of palsy who was brought by his friends',
     key: 'g',
   ),
   const MatchCard(
-    text: 'FREE SPACE',
+    text: 'Mark 2:1-12',
     key: 'g',
   ),
   const MatchCard(
-    text: 'MENE',
+    text: 'Christ raises the widow\'s son from the dead',
     key: 'h',
   ),
   const MatchCard(
-    text: 'Daniel 5:26',
+    text: 'Luke 7:12-15',
     key: 'h',
   ),
   const MatchCard(
-    text: 'TEKEL',
+    text: 'Christ cures infirmities, plagues, blindess, and evil spirits',
     key: 'i',
   ),
   const MatchCard(
-    text: 'Daniel 5:27',
+    text: 'Luke 7:21-22',
     key: 'i',
   ),
   const MatchCard(
-    text: 'UPHARSIN',
+    text: 'Christ heals a man with a withered hand',
     key: 'j',
   ),
   const MatchCard(
-    text: 'Daniel 5:28',
+    text: 'Mark 3:1-5',
     key: 'j',
   ),
 ];
+
+// List<MatchCard> matchCards = [
+//   const MatchCard(
+//     text: 'Head of Gold',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 2:37-38',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: 'Chest and arms of silver',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 2:39A',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: 'Belly and thighs of brass',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 2:39B',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: 'Legs of iron',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 2:40',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: 'Ten toes',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 2:41-42',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: 'Stone cut out of the mountain without hands',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 2:44-45\nD&C 65:2',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: 'FREE SPACE',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: 'FREE SPACE',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: 'MENE',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 5:26',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: 'TEKEL',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 5:27',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: 'UPHARSIN',
+//     key: 'j',
+//   ),
+//   const MatchCard(
+//     text: 'Daniel 5:28',
+//     key: 'j',
+//   ),
+// ];
 // [
 //   const MatchCard(
 //       text:
