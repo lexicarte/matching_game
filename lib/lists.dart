@@ -1,88 +1,258 @@
 import 'match_card.dart';
 
+/// TEMPLATE
+// List<MatchCard> matchCards = [
+//   const MatchCard(
+//     text: '',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'j',
+//   ),
+//   const MatchCard(
+//     text: '',
+//     key: 'j',
+//   ),
+// ];
+
+/// EPHESIANS
 List<MatchCard> matchCards = [
   const MatchCard(
-    text: 'Christ heals a leper',
+    text: 'Jesus Christ is the chief corner stone',
     key: 'a',
   ),
   const MatchCard(
-    text: 'Matthew 8:2-4',
+    text: 'Ephesians 2:20',
     key: 'a',
   ),
   const MatchCard(
-    text: 'Christ heals a man of palsy',
+    text: 'FREE SPACE',
     key: 'b',
   ),
   const MatchCard(
-    text: 'Matthew 8:5-13',
+    text: 'FREE SPACE',
     key: 'b',
   ),
   const MatchCard(
-    text: 'Christ heals Peter\'s mother of fever',
+    text: 'Unity of the faith',
     key: 'c',
   ),
   const MatchCard(
-    text: 'Matthew 8:14-15',
+    text: 'Ephesians 4:11-15',
     key: 'c',
   ),
   const MatchCard(
-    text: 'Christ heals many possessed and casts out spirits',
+    text: 'Holy Spirit of Promise',
     key: 'd',
   ),
   const MatchCard(
-    text: 'Matthew 8:16-17',
+    text: 'Ephesians 1:13-14',
     key: 'd',
   ),
   const MatchCard(
-    text: 'Christ calms a tempest',
+    text: 'Loins girt about..',
     key: 'e',
   ),
   const MatchCard(
-    text: 'Matthew 8:23-27',
+    text: '..with truth',
     key: 'e',
   ),
   const MatchCard(
-    text: 'Christ cures two men possessed with devils',
+    text: 'Breastplate..',
     key: 'f',
   ),
   const MatchCard(
-    text: 'Matthew 8:28-32',
+    text: '..of righteousness',
     key: 'f',
   ),
   const MatchCard(
-    text: 'Christ heals a man of palsy who was brought by his friends',
+    text: 'Feet shod..',
     key: 'g',
   ),
   const MatchCard(
-    text: 'Mark 2:1-12',
+    text: '..with the preparation of the gospel of peace',
     key: 'g',
   ),
   const MatchCard(
-    text: 'Christ raises the widow\'s son from the dead',
+    text: 'Shield..',
     key: 'h',
   ),
   const MatchCard(
-    text: 'Luke 7:12-15',
+    text: '..of faith',
     key: 'h',
   ),
   const MatchCard(
-    text: 'Christ cures infirmities, plagues, blindess, and evil spirits',
+    text: 'Helmet..',
     key: 'i',
   ),
   const MatchCard(
-    text: 'Luke 7:21-22',
+    text: '..of salvation',
     key: 'i',
   ),
   const MatchCard(
-    text: 'Christ heals a man with a withered hand',
+    text: 'Sword..',
     key: 'j',
   ),
   const MatchCard(
-    text: 'Mark 3:1-5',
+    text: '..of the Spirit',
     key: 'j',
   ),
 ];
 
+/// NEW TESTAMENT HEALING
+// List<MatchCard> matchCards = [
+//   const MatchCard(
+//     text: 'Christ heals a leper',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: 'Matthew 8:2-4',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: 'Christ heals a man of palsy',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: 'Matthew 8:5-13',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: 'Christ heals Peter\'s mother of fever',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: 'Matthew 8:14-15',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: 'Christ heals many possessed and casts out spirits',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: 'Matthew 8:16-17',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: 'Christ calms a tempest',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: 'Matthew 8:23-27',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: 'Christ cures two men possessed with devils',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: 'Matthew 8:28-32',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: 'Christ heals a man of palsy who was brought by his friends',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: 'Mark 2:1-12',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: 'Christ raises the widow\'s son from the dead',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: 'Luke 7:12-15',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: 'Christ cures infirmities, plagues, blindess, and evil spirits',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: 'Luke 7:21-22',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: 'Christ heals a man with a withered hand',
+//     key: 'j',
+//   ),
+//   const MatchCard(
+//     text: 'Mark 3:1-5',
+//     key: 'j',
+//   ),
+// ];
+
+/// DANIEL
 // List<MatchCard> matchCards = [
 //   const MatchCard(
 //     text: 'Head of Gold',
@@ -165,6 +335,8 @@ List<MatchCard> matchCards = [
 //     key: 'j',
 //   ),
 // ];
+
+/// PROVERBS
 // [
 //   const MatchCard(
 //       text:

@@ -83,7 +83,7 @@ class _MemoryCardState extends ConsumerState<MemoryCard> {
                       padding: const EdgeInsets.all(8.0),
                       child: AutoSizeText(
                         widget.text,
-                        minFontSize: 18,
+                        minFontSize: 22,
                         maxLines: 3,
                         overflow: TextOverflow.ellipsis,
                         style: completeState ? kSmallDarkText : kSmallText,
