@@ -32,7 +32,7 @@ import 'match_card.dart';
 //   ),
 //   const MatchCard(
 //     text: '',
-//     key: 'e',
+//     key: 'd',
 //   ),
 //   const MatchCard(
 //     text: '',
@@ -84,89 +84,173 @@ import 'match_card.dart';
 //   ),
 // ];
 
-/// EPHESIANS
+/// REVELATIONS
 List<MatchCard> matchCards = [
   const MatchCard(
-    text: 'Jesus Christ is the chief corner stone',
+    text: 'First, Second, and Third Seal',
     key: 'a',
   ),
   const MatchCard(
-    text: 'Ephesians 2:20',
+    text: 'Revelation 6:1-6',
     key: 'a',
   ),
   const MatchCard(
-    text: 'FREE SPACE',
+    text: '144,000 Sealed',
     key: 'b',
   ),
   const MatchCard(
-    text: 'FREE SPACE',
+    text: 'Revelation 7:4-8',
     key: 'b',
   ),
   const MatchCard(
-    text: 'Unity of the faith',
+    text: 'Seven Angels with Seven Trumpets',
     key: 'c',
   ),
   const MatchCard(
-    text: 'Ephesians 4:11-15',
+    text: 'Revelation 8:1-2,6',
     key: 'c',
   ),
   const MatchCard(
-    text: 'Holy Spirit of Promise',
+    text: 'Fourth and Fifth Seal',
     key: 'd',
   ),
   const MatchCard(
-    text: 'Ephesians 1:13-14',
+    text: 'Revelation 6:7-11',
     key: 'd',
   ),
   const MatchCard(
-    text: 'Loins girt about..',
+    text: 'Two Witnesses in Jerusalem',
     key: 'e',
   ),
   const MatchCard(
-    text: '..with truth',
+    text: 'Revelation 11:3-12',
     key: 'e',
   ),
   const MatchCard(
-    text: 'Breastplate..',
+    text: 'Sixth Seal',
     key: 'f',
   ),
   const MatchCard(
-    text: '..of righteousness',
+    text: 'Revelation 6:12-16',
     key: 'f',
   ),
   const MatchCard(
-    text: 'Feet shod..',
+    text: 'A woman in labor vs. a dragon',
     key: 'g',
   ),
   const MatchCard(
-    text: '..with the preparation of the gospel of peace',
+    text: 'JST Revelation 12:1-7,17',
     key: 'g',
   ),
   const MatchCard(
-    text: 'Shield..',
+    text: 'The Mark of the Beast',
     key: 'h',
   ),
   const MatchCard(
-    text: '..of faith',
+    text: 'Revelation 13:15-18',
     key: 'h',
   ),
   const MatchCard(
-    text: 'Helmet..',
+    text: 'Seventh Seal',
     key: 'i',
   ),
   const MatchCard(
-    text: '..of salvation',
+    text: 'Revelation 8:1-2,6',
     key: 'i',
   ),
   const MatchCard(
-    text: 'Sword..',
+    text: 'Three Angels',
     key: 'j',
   ),
   const MatchCard(
-    text: '..of the Spirit',
+    text: 'Revelation 14:6-10',
     key: 'j',
   ),
 ];
+
+/// EPHESIANS
+// List<MatchCard> matchCards = [
+//   const MatchCard(
+//     text: 'Jesus Christ is the chief corner stone',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: 'Ephesians 2:20',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: 'FREE SPACE',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: 'FREE SPACE',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: 'Unity of the faith',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: 'Ephesians 4:11-15',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: 'Holy Spirit of Promise',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: 'Ephesians 1:13-14',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: 'Loins girt about..',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: '..with truth',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: 'Breastplate..',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: '..of righteousness',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: 'Feet shod..',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: '..with the preparation of the gospel of peace',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: 'Shield..',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: '..of faith',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: 'Helmet..',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: '..of salvation',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: 'Sword..',
+//     key: 'j',
+//   ),
+//   const MatchCard(
+//     text: '..of the Spirit',
+//     key: 'j',
+//   ),
+// ];
 
 /// NEW TESTAMENT HEALING
 // List<MatchCard> matchCards = [

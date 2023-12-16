@@ -38,86 +38,92 @@ class _HomePageState extends ConsumerState<HomePage> {
 
     return Scaffold(
       backgroundColor: kMainBgColor,
-      body: Column(
-        children: [
-          Stack(
-            children: [
-              GridView.builder(
-                shrinkWrap: true,
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 5,
-                  mainAxisSpacing: 20,
-                  crossAxisSpacing: 20,
-                  childAspectRatio: 1.5,
+      body: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(image: AssetImage('images/elf.jpeg')),
+        ),
+        child: Column(
+          children: [
+            Stack(
+              children: [
+                GridView.builder(
+                  shrinkWrap: true,
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 5,
+                    mainAxisSpacing: 20,
+                    crossAxisSpacing: 20,
+                    childAspectRatio: 1.5,
+                  ),
+                  itemCount: matchCards.length,
+                  itemBuilder: (BuildContext context, index) {
+                    return MemoryCard(
+                      index: index,
+                      text: matchCards[index].text,
+                      matchKey: matchCards[index].key,
+                    );
+                  },
                 ),
-                itemCount: matchCards.length,
-                itemBuilder: (BuildContext context, index) {
-                  return MemoryCard(
-                    index: index,
-                    text: matchCards[index].text,
-                    matchKey: matchCards[index].key,
-                  );
-                },
-              ),
-              Align(
-                alignment: Alignment.topCenter,
-                child: ConfettiWidget(
-                  numberOfParticles: 25,
-                  emissionFrequency: 0.01,
-                  confettiController: _controllerCenter,
-                  blastDirectionality: BlastDirectionality
-                      .explosive, // don't specify a direction, blast randomly
-                  shouldLoop:
-                      false, // start again as soon as the animation is finished
-                  colors: const [
-                    Colors.green,
-                    Colors.blue,
-                    Colors.pink,
-                    Colors.orange,
-                    Colors.purple
-                  ], // manually specify the colors to be used
-                  // createParticlePath: drawStar, // define a custom shape/path.
+                Align(
+                  alignment: Alignment.topCenter,
+                  child: ConfettiWidget(
+                    numberOfParticles: 25,
+                    emissionFrequency: 0.01,
+                    confettiController: _controllerCenter,
+                    blastDirectionality: BlastDirectionality
+                        .explosive, // don't specify a direction, blast randomly
+                    shouldLoop:
+                        false, // start again as soon as the animation is finished
+                    colors: const [
+                      Colors.green,
+                      Colors.blue,
+                      Colors.pink,
+                      Colors.orange,
+                      Colors.purple
+                    ], // manually specify the colors to be used
+                    // createParticlePath: drawStar, // define a custom shape/path.
+                  ),
                 ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 20),
-          selectionState == 2
-              ? Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    GestureDetector(
-                      onTap: () => checkAnswer(),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: kCardBorderColor,
-                          borderRadius: BorderRadius.circular(10.0),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 20.0,
-                            vertical: 12.0,
+              ],
+            ),
+            const SizedBox(height: 20),
+            selectionState == 2
+                ? Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      GestureDetector(
+                        onTap: () => checkAnswer(),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: kCardBorderColor,
+                            borderRadius: BorderRadius.circular(10.0),
                           ),
-                          child: Text(
-                            'IS IT A MATCH?',
-                            style: kMedDarkText,
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 20.0,
+                              vertical: 12.0,
+                            ),
+                            child: Text(
+                              'IS IT A MATCH?',
+                              style: kMedDarkText,
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                    const SizedBox(width: 20),
-                  ],
-                )
-              : const SizedBox(height: 30),
-        ],
+                      const SizedBox(width: 20),
+                    ],
+                  )
+                : const SizedBox(height: 30),
+          ],
+        ),
       ),
     );
   }
 
   checkAnswer() {
+    double height = MediaQuery.of(context).size.height;
+
     if (selectionA == selectionB) {
-      print('true');
       ref.read(cardCompleteStateProviders[selectedIndex[0]].notifier).state =
           true;
       ref.read(cardCompleteStateProviders[selectedIndex[1]].notifier).state =
@@ -131,20 +137,31 @@ class _HomePageState extends ConsumerState<HomePage> {
           false;
       selectedIndex.clear();
 
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        content: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'N O P E',
-              style: kLargeRedText,
-            ),
-          ],
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          behavior: SnackBarBehavior.floating,
+          margin: EdgeInsets.only(bottom: height * .40),
+          content: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Row(
+                children: [
+                  Text('🎄', style: kLargeGreenText),
+                  const SizedBox(width: 16),
+                  Text(
+                    'N O P E',
+                    style: kLargeRedText,
+                  ),
+                  const SizedBox(width: 16),
+                  Text('🎄', style: kLargeGreenText),
+                ],
+              ),
+            ],
+          ),
+          duration: const Duration(milliseconds: 1200),
+          backgroundColor: Colors.white,
         ),
-        duration: const Duration(milliseconds: 1200),
-        backgroundColor: kMainBgColor,
-      ));
-      print('false');
+      );
     }
     ref.read(selectionsStateProvider.notifier).state = 0;
     ref.read(frozenStateProvider.notifier).state = false;
