@@ -1,6 +1,6 @@
-# proverbs
+# Matching Game
 
-A new Flutter project.
+Configurable web-based matching game.
 
 ## Getting Started
 
