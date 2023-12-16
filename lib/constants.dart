@@ -16,6 +16,7 @@ const Color kCardBgColor = Color(0x95EAEAEA);
 
 TextStyle kLargeText = GoogleFonts.jost(fontSize: 60, color: kMainTextColor);
 TextStyle kMedDarkText = GoogleFonts.jost(fontSize: 40, color: kMainBgColor);
+TextStyle kButtonText = GoogleFonts.jost(fontSize: 40, color: Colors.green);
 TextStyle kSmallDarkText = GoogleFonts.jost(color: kMainBgColor);
 TextStyle kSmallText = GoogleFonts.jost(color: kMainTextColor);
 TextStyle kLargeRedText = GoogleFonts.jost(fontSize: 80, color: Colors.red);

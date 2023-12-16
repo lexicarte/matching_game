@@ -40,7 +40,7 @@ class _HomePageState extends ConsumerState<HomePage> {
       backgroundColor: kMainBgColor,
       body: Container(
         decoration: const BoxDecoration(
-          image: DecorationImage(image: AssetImage('images/elf.jpeg')),
+          image: DecorationImage(image: AssetImage('images/elf.jpeg'), fit: BoxFit.cover),
         ),
         child: Column(
           children: [
@@ -95,7 +95,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                         onTap: () => checkAnswer(),
                         child: Container(
                           decoration: BoxDecoration(
-                            color: kCardBorderColor,
+                            color: Colors.white,
                             borderRadius: BorderRadius.circular(10.0),
                           ),
                           child: Padding(
@@ -105,7 +105,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                             ),
                             child: Text(
                               'IS IT A MATCH?',
-                              style: kMedDarkText,
+                              style: kButtonText,
                             ),
                           ),
                         ),
