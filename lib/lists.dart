@@ -84,89 +84,173 @@ import 'match_card.dart';
 //   ),
 // ];
 
-/// REVELATIONS
+/// ALMA
 List<MatchCard> matchCards = [
   const MatchCard(
-    text: 'First, Second, and Third Seal',
+    text: 'FALSE: There is no need for faith',
     key: 'a',
   ),
   const MatchCard(
-    text: 'Revelation 6:1-6',
+    text: 'Alma 32:17-29',
     key: 'a',
   ),
   const MatchCard(
-    text: '144,000 Sealed',
+    text: 'FALSE: No man can know of anything to come',
     key: 'b',
   ),
   const MatchCard(
-    text: 'Revelation 7:4-8',
+    text: 'Alma 30:49-50',
     key: 'b',
   ),
   const MatchCard(
-    text: 'Seven Angels with Seven Trumpets',
+    text: 'FALSE: There is no need for an atonement',
     key: 'c',
   ),
   const MatchCard(
-    text: 'Revelation 8:1-2,6',
+    text: 'Alma 34:9-12',
     key: 'c',
   ),
   const MatchCard(
-    text: 'Fourth and Fifth Seal',
+    text: 'FALSE: When you are dead that is the end',
     key: 'd',
   ),
   const MatchCard(
-    text: 'Revelation 6:7-11',
+    text: 'Alma 34:32-33',
     key: 'd',
   ),
   const MatchCard(
-    text: 'Two Witnesses in Jerusalem',
+    text: 'FALSE: The Gospel is not freedom, it is bondage',
     key: 'e',
   ),
   const MatchCard(
-    text: 'Revelation 11:3-12',
+    text: 'Alma 31:38',
     key: 'e',
   ),
   const MatchCard(
-    text: 'Sixth Seal',
+    text: 'FALSE: Nephite leaders use followers for gain',
     key: 'f',
   ),
   const MatchCard(
-    text: 'Revelation 6:12-16',
+    text: 'Alma 30:32-25',
     key: 'f',
   ),
   const MatchCard(
-    text: 'A woman in labor vs. a dragon',
+    text: 'FALSE: God does not exist and has never been seen',
     key: 'g',
   ),
   const MatchCard(
-    text: 'JST Revelation 12:1-7,17',
+    text: 'Alma 30:43, 44, 52',
     key: 'g',
   ),
   const MatchCard(
-    text: 'The Mark of the Beast',
+    text: 'FALSE: Satan has your back, don\'t worry!',
     key: 'h',
   ),
   const MatchCard(
-    text: 'Revelation 13:15-18',
+    text: 'Alma 30:59-60',
     key: 'h',
   ),
   const MatchCard(
-    text: 'Seventh Seal',
+    text: 'FALSE: God is a spirit',
     key: 'i',
   ),
   const MatchCard(
-    text: 'Revelation 8:1-2,6',
+    text: 'D&C 130:22',
     key: 'i',
   ),
   const MatchCard(
-    text: 'Three Angels',
+    text: 'FALSE: Prayers should be repetitive',
     key: 'j',
   ),
   const MatchCard(
-    text: 'Revelation 14:6-10',
+    text: 'Matthew 6:7',
     key: 'j',
   ),
 ];
+
+/// REVELATIONS
+// List<MatchCard> matchCards = [
+//   const MatchCard(
+//     text: 'First, Second, and Third Seal',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 6:1-6',
+//     key: 'a',
+//   ),
+//   const MatchCard(
+//     text: '144,000 Sealed',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 7:4-8',
+//     key: 'b',
+//   ),
+//   const MatchCard(
+//     text: 'Seven Angels with Seven Trumpets',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 8:2,6',
+//     key: 'c',
+//   ),
+//   const MatchCard(
+//     text: 'Fourth and Fifth Seal',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 6:7-11',
+//     key: 'd',
+//   ),
+//   const MatchCard(
+//     text: 'Two Witnesses in Jerusalem',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 11:3-12',
+//     key: 'e',
+//   ),
+//   const MatchCard(
+//     text: 'Sixth Seal',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 6:12-16',
+//     key: 'f',
+//   ),
+//   const MatchCard(
+//     text: 'A woman in labor vs. a dragon',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: 'JST Revelation 12:1-7,17',
+//     key: 'g',
+//   ),
+//   const MatchCard(
+//     text: 'The Mark of the Beast',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 13:15-18',
+//     key: 'h',
+//   ),
+//   const MatchCard(
+//     text: 'Seventh Seal',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 8:1',
+//     key: 'i',
+//   ),
+//   const MatchCard(
+//     text: 'Three Angels',
+//     key: 'j',
+//   ),
+//   const MatchCard(
+//     text: 'Revelation 14:6-10',
+//     key: 'j',
+//   ),
+// ];
 
 /// EPHESIANS
 // List<MatchCard> matchCards = [

@@ -40,7 +40,11 @@ class _HomePageState extends ConsumerState<HomePage> {
       backgroundColor: kMainBgColor,
       body: Container(
         decoration: const BoxDecoration(
-          image: DecorationImage(image: AssetImage('images/elf.jpeg'), fit: BoxFit.cover),
+          image: DecorationImage(
+            image: AssetImage('images/temple-brazil.jpeg'),
+            fit: BoxFit.fill,
+            opacity: 0.80,
+          ),
         ),
         child: Column(
           children: [
@@ -146,14 +150,14 @@ class _HomePageState extends ConsumerState<HomePage> {
             children: [
               Row(
                 children: [
-                  Text('🎄', style: kLargeGreenText),
-                  const SizedBox(width: 16),
+                  Text('😥', style: kLargeText),
+                  const SizedBox(width: 24),
                   Text(
                     'N O P E',
                     style: kLargeRedText,
                   ),
-                  const SizedBox(width: 16),
-                  Text('🎄', style: kLargeGreenText),
+                  const SizedBox(width: 24),
+                  Text('😭', style: kLargeText),
                 ],
               ),
             ],
